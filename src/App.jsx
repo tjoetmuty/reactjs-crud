@@ -1,12 +1,13 @@
-
 import './App.css'
+import UserList from './features/Users/UserList'
+
 
 function App() {
 
   return (
-    <>
-      halo
-    </>
+  <div>
+    <UserList/>
+  </div>
   )
 }
 
