@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
-import './App.css'
 import UserList from './features/Users/UserList'
+import AddUser from './features/Users/AddUser'
 
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
     <h1 className='text-center text-gray-700 text-2xl font-bold'>CRUD with redux toolkit</h1>
     <Routes>
       <Route path='/' element={<UserList/>}/>
+      <Route path='/add-user' element={<AddUser/>}/>
     </Routes>
   
   </div>
